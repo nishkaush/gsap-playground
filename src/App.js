@@ -3,6 +3,7 @@ import gsap from "gsap";
 // import { ReactComponent as ReactLogo } from "./logo.svg";
 import "./App.css";
 import Tlbasic from "./components/timeline-basic";
+import SampleForm from "./components/sampleForm";
 
 const App = () => {
   let heading = null;
@@ -75,7 +76,8 @@ const App = () => {
             <path d="M520.5 78.1z" />
           </g>
         </svg>
-        <Tlbasic />
+        {/* <Tlbasic /> */}
+        <SampleForm />
       </header>
     </div>
   );
