@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 // import { ReactComponent as ReactLogo } from "./logo.svg";
 import "./App.css";
+import Tlbasic from "./components/timeline-basic";
 
 const App = () => {
   let heading = null;
@@ -74,6 +75,7 @@ const App = () => {
             <path d="M520.5 78.1z" />
           </g>
         </svg>
+        <Tlbasic />
       </header>
     </div>
   );
